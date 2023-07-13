@@ -28,10 +28,15 @@ class Download:
 
     def get_dlsite_pages(self) -> None:
         root = (
-            "https://www.dlsite.com/maniax/fsr/=/language/jp/"
+            "https://www.dlsite.com/maniax/works/type/=/language/jp/"
             "sex_category%5B0%5D/male/work_category%5B0%5D/doujin/"
-            "order%5B0%5D/release_d/work_type%5B0%5D/SOU/"
-            "work_type_name%5B0%5D/%E3%83%9C%E3%82%A4%E3%82%B9%E3%83%BBASMR/"
+            "order%5B0%5D/trend/work_type_category%5B0%5D/audio/"
+            "work_type_category_name%5B0%5D/%E9%9F%B3%E5%A3%B0%E3%83%BBASMR/options_and_or/"
+            "and/options%5B0%5D/JPN/options%5B1%5D/CHI/options%5B2%5D/CHI_HANS/options%5B3%5D/"
+            "CHI_HANT/options%5B4%5D/NM/show_type/3/lang_options%5B0%5D/%E6%97%A5%E6%96%87/"
+            "lang_options%5B1%5D/%E4%B8%AD%E6%96%87/lang_options%5B2%5D/%E4%B8%AD%E6%96%87%28%E7%AE%80%E4%BD%93%E5%AD%97%29/"
+            "lang_options%5B3%5D/%E4%B8%AD%E6%96%87%28%E7%B9%81%E4%BD%93%E5%AD%97%29/lang_options%5B4%5D/"
+            "%E4%B8%8D%E9%99%90%E8%AF%AD%E7%A7%8D/"
             "per_page/100/page/{}"
         )
 
