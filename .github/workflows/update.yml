@@ -9,7 +9,7 @@ jobs:
   update:
     runs-on: ubuntu-latest
     env:
-      TZ: 'Asia/Tokyo'
+      TZ: 'Asia/ShangHai'
     steps:
       - uses: nschloe/action-cached-lfs-checkout@v1
       - uses: actions/setup-python@v4
